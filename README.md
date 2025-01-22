@@ -28,7 +28,7 @@ This project involves building an **ETL pipeline** using Python, Pandas, Postgre
   - ERD (Entity Relationship Diagram) as a PNG image.
   - PDF documentation of the ERD and schema design.
   - Physical ERD code for QuickDBD as a TXT file.
-  - Database schema in `schema.sql`.
+  - Database schema in `Crowdfunding_db_schema.sql`.
 
 ### Part 3: **Load Data into PostgreSQL**
 
@@ -57,16 +57,16 @@ This project involves building an **ETL pipeline** using Python, Pandas, Postgre
 ```
 /crowdfunding-etl
 ├── Resources/
-│   ├── crowdfunding.xlsx                  	# crowdfunding excel file as source
-│   ├── contacts.xlsx                      	# contacts excel file as source
-│   ├── category.csv                       	# CSV for category data as output
-│   ├── subcategory.csv                    	# CSV for subcategory data as output
-│   ├── campaign.csv                       	# CSV for campaign data as output                              
-│   └── contacts.csv                       	# CSV for contacts data as output       
+│   ├── crowdfunding.xlsx                # crowdfunding excel file as source
+│   ├── contacts.xlsx                    # contacts excel file as source
+│   ├── category.csv                     # CSV for category data as input to database
+│   ├── subcategory.csv                  # CSV for subcategory data as input to database
+│   ├── campaign.csv                     # CSV for campaign data as input to database                              
+│   └── contacts.csv                     # CSV for contacts data as input to database       
 ├── notebooks/                  
 │   ├── ETL_Mini_Project_Starter_Code.ipynb	# Jupyter Notebook for Extract and Transform excel data
-│   └── load_to_postgres_notebook.ipynb    	# Jupyter Notebook for Load into Postgres
-│   └── analysis_notebook.ipynb     			# Jupyter Notebook for Visualization
+│   └── load_to_postgres_notebook.ipynb    	# Jupyter Notebook for Loading data from csv files into Postgres
+│   └── analysis_notebook.ipynb     			# Jupyter Notebook for Data Visualization
 ├── crowdfunding_db/
 |   ├── crowdfunding_erd_documentation.pdf		# Documentation of ERD
 |   ├── crowdfunding_erd.png         			# ERD from QuickDBD
@@ -78,7 +78,7 @@ This project involves building an **ETL pipeline** using Python, Pandas, Postgre
 |   ├── image
 |   ├── image
 |   ├── image
-├── Crowdfunding_ETL_report.pdf       			# PDF write-up             
+├── Crowdfunding_ETL_report.pdf       			# Summary of the ETL project            
 ├── README.md                 
         
 ```
