@@ -55,7 +55,7 @@ This project involves building an **ETL pipeline** using Python, Pandas, Postgre
 ## File Structure
 
 ```
-/crowdfunding-etl
+/Crowdfunding ETL
 ├── Resources/
 │   ├── crowdfunding.xlsx                # crowdfunding excel file as source
 │   ├── contacts.xlsx                    # contacts excel file as source
@@ -74,10 +74,6 @@ This project involves building an **ETL pipeline** using Python, Pandas, Postgre
 |   ├── Crowdfunding_db_schema.sql		        # Final version of the database schema 
 |   ├── queries.sql                        		# SQL file with queries for analysis
 ├── visualizations/ 
-|   ├── image
-|   ├── image
-|   ├── image
-|   ├── image
 ├── Crowdfunding_ETL_report.pdf       			# Summary of the ETL project            
 ├── README.md                 
         
