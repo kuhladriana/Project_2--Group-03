@@ -85,7 +85,7 @@ This project involves building an **ETL pipeline** using Python, Pandas, Postgre
 
 - **Part 1**: Execute the notebook `ETL_Mini_Project_Starter_Code.ipynb` to extract and transform data from the Excel files into CSVs.
 - **Part 3**: Run the notebook `load_to_postgres_notebook.ipynb` to load the CSVs into PostgreSQL.
-- **Part 4**: Run `analysis_notebook.ipynb` for analysis and visualization, querying the data in PostgreSQL and generating charts.
+- **Part 4**: Run `crowdfunding_analysis.ipynb` for analysis and visualization, querying the data in PostgreSQL and generating charts.
 
 ---
 
