@@ -43,7 +43,7 @@ This project involves building an **ETL pipeline** using Python, Pandas, Postgre
 - **Output**:
   - A `queries.sql` file with few queries.
   - A notebook that contains Exploratory Data Analysis (EDA) using Pandas and Matplotlib.
-	- `analysis_notebook.ipynb`
+	- `crowdfunding_analysis.ipynb`
   - Images of all charts and graphs used for data visualizations.
 
 ### Part 5: **Summarize the Project**
@@ -66,7 +66,7 @@ This project involves building an **ETL pipeline** using Python, Pandas, Postgre
 ├── notebooks/                  
 │   ├── ETL_Mini_Project_Starter_Code.ipynb	# Jupyter Notebook for Extract and Transform excel data
 │   └── load_to_postgres_notebook.ipynb    	# Jupyter Notebook for Loading data from csv files into Postgres
-│   └── analysis_notebook.ipynb     			# Jupyter Notebook for Data Visualization
+│   └── crowdfunding_analysis.ipynb     			# Jupyter Notebook for Data Visualization
 ├── crowdfunding_db/
 |   ├── crowdfunding_erd_documentation.pdf		# Documentation of ERD
 |   ├── crowdfunding_erd.png         			# ERD from QuickDBD
